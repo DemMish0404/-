@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Обратная связь</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+   <section class="flex">
+      <a href="index.html" class="logo">Агро</a>
+      <nav class="navbar">
+         <a href="index.html">главная</a>
+         <a href="about.html">о нас</a>
+         <a href="menu.html">магазин</a>
+         <a href="contact.html">обратная связь</a>
+      </nav>
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+</header>
+<div class="heading">
+   <h3>Обратная связь</h3>
+</div>
+ <form action="send.html" method="post" name="form" style="padding: 50px 50px 30px;">
+     <p class="is-h" style="font-size: 3rem; color: rgba(44, 130, 49, 0.50);">ФИО:<br> <input name="author" type="text" class="is-input" id="author" style="width: 350px; height: 40px; font-size: 3rem;"></p>
+     <p class="is-h" style="font-size: 3rem; color: rgba(44, 130, 49, 0.50);">Текст сообщения:<br><textarea name="message" rows="5" cols="50" id="message" style="font-size: 3rem;"></textarea></p>
+     <input name="js" type="hidden" value="no" id="js">
+     <button type="submit" id='click' name="button" class="is-button"
+     style="    display: inline-block;
+     margin-top: 1rem;
+     background-color: #2C8231;
+     cursor: pointer;
+     color: white;
+     font-size: 2.2rem;
+     padding: 2rem 3rem;
+     text-align: center;
+     width: fit-content;
+     height: fit-content;
+     margin: 0 auto;">
+         Отправить
+     </button>
+ </form>
+</body>
+</html>
